@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid #c8ee83;
+     #d274a6 */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+div.menue{
+    position: fixed;
+    margin-left: 4.6%;
+    top: 0px;
+    left: -2.5%;
+}
+
+#menue-item-list{
+    padding-top: 2%;
+    margin-top: 0;
+    margin-left: 0;
+    padding-right: 21.2%;
+    width: 268%;
+    height: 1.98em;
+    font-size: 18px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+li.first-menue-item{
+    display:inline-block;
+    float:none;
+    text-align: center;
+    margin-left: 2%;
+    font-weight: 525;
+}
+
+li.menue-item{
+    display:inline;
+    float: none;
+    margin-left: 15%;
+    text-align: center;
+    font-weight: 525;
+}
+
+li.menue-item a, li.first-menue-item a{
+    text-decoration: none;
+    color: #cc2f83ce;
+}
+
+li.menue-item a:hover, li.first-menue-item a:hover{
+    text-decoration: underline;
+    color: #9ecc49c5;
+}
+
+#header{
+    margin-top: 3%;
+    margin-left: 2.1%;
+    margin-right: 2.1%;
+    margin-bottom: 5.1%;
+    padding-bottom: 4.2%;
+    background: linear-gradient(to top right,#cc2f83ce 0%,#d274a6ce 100%);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+#home-table{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#header-image{
+    display: inline-block; 
+    vertical-align: bottom;
+    margin-top: 10%;
+    padding: 0;
+    border: 0;
+    width: 88.7%;
+    height:52.63%;
+    
+}
+
+h1.header, td.header{
+    font-family: 'Didot Italic';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 1;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-bottom: 2%;
+}
+
+#content-cell{
+    width: 50%;
+}
+
+h2.intro{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Futura Book';
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.chevron-left, .chevron-right{
+    font-family: 'Didot Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 50px;
+    vertical-align:baseline;
+    padding: 0;
+    margin: 0;
+}
+
+h2.reference-my-name{    
+    text-align: right;
+    font-family: 'Futura Book';
+    font-weight: normal;
+    line-height: 0.2;
+    font-size: 20px;
+    font-style: oblique;
+    margin: 0;
+    padding-right: 25%;      
+}
+
+#about-me-link{
+    color: whitesmoke;
+}
+
+#about-me-link:hover{
+    color: #9ecc49c5;
+}
+
+.scroll-container{
+    position: absolute;
+    display: block;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.other-scroll-container{
+    position: relative;
+    display: block;
+    bottom: 30px;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.scroll-text{
+    font-family: 'Futura Book';
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.icon-container{
+    font-family: verdana;
+    text-align: center;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+a.scroll-link{
+    color: #9ecc49c5;
+    text-decoration: none;
+}
+
+a.scroll-link:hover{
+    color: #d274a6ce;
+    text-decoration: none;
+}
+
+#about-me, #my-journey, #my-skills, #contact-me, #home{
+    border: 1px solid white;
+}
+
+#about-me-container, #my-journey-container, #my-skills-container, #contact-me-container{
+    /*
+    margin-top: 3%;
+    margin-left: 2.1%;
+    margin-right: 2.1%;
+    margin-bottom: 5.1%;
+    padding-bottom: 4.2%;
+    */
+    box-sizing: border-box;
+    margin-top: 3%;
+    margin-left: 2.1%;
+    margin-right: 2.1%;
+    margin-bottom: 0.5%;/*2.5%*/
+    padding-bottom: 10.5%;
+    padding-top: 10%;
+    background-image: linear-gradient(to top right,rgba(255, 255, 255, 0.9) 0%, rgba(245, 245, 245, 0.95) 100%), url(../images/social-media-collection.png);
+    background-position: top;
+    color: black;
+    border: 1px solid #d274a6ce;
+    border-radius: 10px;
+}
+
+.section-title-cell{
+    box-sizing: border-box; 
+    width:35%;
+    vertical-align:middle; 
+    text-align: center;
+    color: #9ecc49c5;
+    margin-right: 5%;
+    padding-right: 5%;
+}
+
+.section-content-cell{
+    box-sizing: border-box;
+    vertical-align:middle; 
+    padding-right:7.5%;
+    padding-left: 7.5%;
+    font-size: 20px;
+    font-family: 'Futura Book';
+    font-weight: 500;
+}
